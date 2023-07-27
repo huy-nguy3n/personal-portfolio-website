@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/profile.jpeg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Image } from "react-bootstrap";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -47,6 +48,17 @@ export const Banner = () => {
     }
   }
 
+  const handleScrollToConnect = () => {
+    const connectSection = document.getElementById('connect');
+    if (connectSection) {
+      connectSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  
+  const circularImageStyle = {
+    borderRadius: "50%",
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +70,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hey! I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm a Software Engineer based in Los Gatos, CA. I am currently studying Computer Science at UC Santa Cruz. I have a passion for software development, working with frontend and backend code, and creating intuitive, dynamic user experiences.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={handleScrollToConnect}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
@@ -66,7 +78,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <Image src={headerImg} alt="Header Img" fluid style={circularImageStyle}/>
                 </div>}
             </TrackVisibility>
           </Col>

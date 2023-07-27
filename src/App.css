@@ -234,8 +234,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/bg.jpeg');
-  background-position: top center;
+  /* background: linear-gradient(to top, #5f2387 0%, #000000 100%);
+  background-position: top center; */
+  background: linear-gradient(90deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -243,7 +244,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -468,7 +468,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+  background: linear-gradient(90deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   padding: 60px 0 60px 0;
 }
 .contact img {
@@ -483,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 18px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-color: #121212;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

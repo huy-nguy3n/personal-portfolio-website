@@ -48,10 +48,6 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="" />
                                 <h5>Frontend</h5>
                             </div>
                             <div className="item">
