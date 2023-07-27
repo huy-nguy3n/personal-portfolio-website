@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import fridayfinder from "../assets/img/friday-finder.png";
 import wordlesolver from "../assets/img/wordle.jpg";
+import machinelearn from "../assets/img/ML.jpeg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import iconImage from '../assets/img/nav-icon3.svg';
@@ -17,18 +18,18 @@ export const Projects = () => {
       git_link: "https://github.com/huy-nguy3n/FridayFinder",
     },
     {
-      title: "Machine Learning",
-      description: "Description of Project 2.",
-      tech: "write tech",
-      image: fridayfinder,
-      git_link: "https://github.com/huy-nguy3n/Machine-Learning",
-    },
-    {
       title: "Wordle Solver",
       description: "Wordle Solver is a tool designed to assist users in solving the popular word puzzle game, Wordle.",
       tech: "Developed using C programming language, speed, accuracy, and user-friendly interface.",
       image: wordlesolver,
       git_link: "https://github.com/huy-nguy3n/Wordle-Solver",
+    },
+    {
+      title: "Machine Learning",
+      description: "Description of Project 2.",
+      tech: "write tech",
+      image: machinelearn,
+      git_link: "https://github.com/huy-nguy3n/Machine-Learning",
     },
   ];
 
