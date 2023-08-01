@@ -1,6 +1,6 @@
 {
+  "homepage": "https://huy-nguy3n.github.io/personal-portfolio-website/", 
   "name": "personal-portfolio",
-  "homepage": "http://huy-nguy3n.github.io/personal-portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,9 +28,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
