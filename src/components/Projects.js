@@ -26,8 +26,8 @@ export const Projects = () => {
     },
     {
       title: "Machine Learning",
-      description: "Description of Project 2.",
-      tech: "write tech",
+      description: "Python projects focused on loading training data to train classifiers for machine learning applications. Then utilize these trained classifiers to deliver accurate predictions on new data sets.",
+      tech: "Developed using Python programming language",
       image: machinelearn,
       git_link: "https://github.com/huy-nguy3n/Machine-Learning",
     },
