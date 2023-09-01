@@ -18,18 +18,30 @@ export const Projects = () => {
       git_link: "https://github.com/huy-nguy3n/FridayFinder",
     },
     {
+      title: "Machine Learning",
+      description: (
+        <ul>
+          <li>
+            Amazon Recommender System: a recommendation system to predict the ratings and popularity of products on Amazon, using collaborative filtering to recommend products.
+          </li>
+          <li>
+            Stock Price Prediction: analyzing the risk of a stock based on its previous performance history, using Long Short-Term Memory (LSTM) to predict future stock prices.
+          </li>
+          <li>
+            California Housing Prices: analyzing how different factors affect housing prices, using Linear Regression Model and Random Forest Model to predict housing prices.
+          </li>
+        </ul>
+      ),
+      tech: "Developed using Python programming language",
+      image: machinelearn,
+      git_link: "https://github.com/huy-nguy3n/Machine-Learning",
+    },
+    {
       title: "Wordle Solver",
       description: "Wordle Solver is a tool designed to assist users in solving the popular word puzzle game, Wordle.",
       tech: "Developed using C programming language, speed, accuracy, and user-friendly interface.",
       image: wordlesolver,
       git_link: "https://github.com/huy-nguy3n/Wordle-Solver",
-    },
-    {
-      title: "Machine Learning",
-      description: "Python projects focused on loading training data to train classifiers for machine learning applications. Then utilize these trained classifiers to deliver accurate predictions on new data sets.",
-      tech: "Developed using Python programming language",
-      image: machinelearn,
-      git_link: "https://github.com/huy-nguy3n/Machine-Learning",
     },
   ];
 
