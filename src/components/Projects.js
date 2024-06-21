@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import fridayfinder from "../assets/img/friday-finder.png";
 import wordlesolver from "../assets/img/wordle.jpg";
 import machinelearn from "../assets/img/ML.jpeg";
+import pacman from "../assets/img/pacman.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import iconImage from '../assets/img/nav-icon3.svg';
@@ -16,6 +17,28 @@ export const Projects = () => {
       tech: "Javascript web application, built with Next.js React Framework, Node.js for server and backend, Firebase for authentication and database, Material UI: Joy UI components and Google Maps API.",
       image: fridayfinder,
       git_link: "https://github.com/huy-nguy3n/FridayFinder",
+    },
+    {
+      title: "AI PACMAN",
+      description: (      
+      <div>
+        A modified version of the Pacman educational project from the Berkeley AI Lab. This repository includes three main projects:
+        <ul>
+          <li>
+            Search in Pac-Man: Pac-Man agent will find paths through their maze world, both to reach a particular location and to collect food efficiently.
+          </li>
+          <li>
+            Multi-Agent Pac-Man: Agents are designed for the classic version of Pac-Man, including ghosts.
+          </li>
+          <li>
+            Reinforcement Learning: Agents are first tested on Gridworld, then apply to a simulated robot controller and Pac-Man.
+          </li>
+        </ul>
+      </div>
+      ),
+      tech: "Developed using Python programming language",
+      image: pacman,
+      git_link: "https://github.com/huy-nguy3n/AI-PACMAN",
     },
     {
       title: "Machine Learning",

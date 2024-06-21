@@ -35,7 +35,7 @@ const experiences = [
 const ExperienceTimeline = () => {
   return (
     <section className="experience-timeline" id="experience">
-      <h2>My Experience</h2>
+      <h2>My Experiences</h2>
       <VerticalTimeline>
         {experiences.map((experience, index) => (
           <VerticalTimelineElement
