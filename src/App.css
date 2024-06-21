@@ -362,9 +362,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .icon-img {
-  width: 15px; /* Adjust the width of the icon image as needed */
-  height: 15px; /* Adjust the height of the icon image as needed */
-  margin-right: 8px; /* Adjust the margin between the icon and text as needed */
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
 }
 
 /************ Projects Css ************/
@@ -391,3 +391,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
+/************ Timeline Css ************/
+.experience-timeline {
+  padding: 2rem 0;
+}
+
+.vertical-timeline-element-title {
+  font-weight: bold;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #555;
+}
+.date-white {
+  color: #fff;
+}
+
+.experience-timeline h2 {
+  text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+}
