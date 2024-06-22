@@ -9,7 +9,6 @@ import TrackVisibility from 'react-on-screen';
 import iconImage from '../assets/img/nav-icon3.svg';
 
 export const Projects = () => {
-  // Sample project data
   const projects = [
     {
       title: "FridayFinder",
@@ -20,21 +19,21 @@ export const Projects = () => {
     },
     {
       title: "AI PACMAN",
-      description: (      
-      <div>
-        A modified version of the Pacman educational project from the Berkeley AI Lab. This repository includes three main projects:
-        <ul>
-          <li>
-            Search in Pac-Man: Pac-Man agent will find paths through their maze world, both to reach a particular location and to collect food efficiently.
-          </li>
-          <li>
-            Multi-Agent Pac-Man: Agents are designed for the classic version of Pac-Man, including ghosts.
-          </li>
-          <li>
-            Reinforcement Learning: Agents are first tested on Gridworld, then apply to a simulated robot controller and Pac-Man.
-          </li>
-        </ul>
-      </div>
+      description: (
+        <div>
+          A modified version of the Pacman educational project from the Berkeley AI Lab. This repository includes three main projects:
+          <ul>
+            <li>
+              Search in Pac-Man: Pac-Man agent will find paths through their maze world, both to reach a particular location and to collect food efficiently.
+            </li>
+            <li>
+              Multi-Agent Pac-Man: Agents are designed for the classic version of Pac-Man, including ghosts.
+            </li>
+            <li>
+              Reinforcement Learning: Agents are first tested on Gridworld, then apply to a simulated robot controller and Pac-Man.
+            </li>
+          </ul>
+        </div>
       ),
       tech: "Developed using Python programming language",
       image: pacman,
@@ -68,10 +67,8 @@ export const Projects = () => {
     },
   ];
 
-  // State to manage the visibility and animation of each project card
   const [isVisible, setIsVisible] = useState(Array(projects.length).fill(false));
 
-  // Function to handle the visibility change when a card comes into view
   const handleVisibilityChange = (index, visible) => {
     const updatedVisibility = [...isVisible];
     updatedVisibility[index] = visible;
@@ -84,18 +81,17 @@ export const Projects = () => {
         <Row className="justify-content-center">
           <Col xs={10}>
             <div>
-              <h2>Projects</h2>
+              <h2 style={{ color: "white" }}>Projects</h2>
               {projects.map((project, index) => (
                 <div key={index} className="mb-4">
                   <TrackVisibility onChange={(isVisible) => handleVisibilityChange(index, isVisible)}>
                     {({ isVisible: isCardVisible }) => (
                       <Card
                         className={`animate__animated ${isCardVisible ? "animate__fadeIn" : ""}`}
-                        style={{ backgroundColor: "#151515", borderRadius: "10px" }} // Set your custom color here
+                        style={{ backgroundColor: "#151515", borderRadius: "10px", color: "white" }}
                       >
                         <Row>
                           <Col md="4">
-                            {/* Increase height and width here */}
                             <Image
                               src={project.image}
                               alt={project.title}
@@ -105,15 +101,15 @@ export const Projects = () => {
                           </Col>
                           <Col md="8">
                             <Card.Body>
-                              <Card.Title>{project.title}</Card.Title>
-                              <Card.Text>
+                              <Card.Title style={{ color: "white" }}>{project.title}</Card.Title>
+                              <Card.Text style={{ color: "white" }}>
                                 {project.description}
                               </Card.Text>
-                              <Card.Title>Technology</Card.Title>
-                              <Card.Text>
+                              <Card.Title style={{ color: "white" }}>Technology</Card.Title>
+                              <Card.Text style={{ color: "white" }}>
                                 {project.tech}
                               </Card.Text>
-                              <a href={project.git_link} target="_blank">
+                              <a href={project.git_link} target="_blank" rel="noopener noreferrer">
                                 <Button variant="dark">
                                   <img src={iconImage} alt="" className="icon-img" /> Github
                                 </Button>

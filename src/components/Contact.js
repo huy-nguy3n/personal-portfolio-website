@@ -8,7 +8,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center justify-content-center">
-          <Col size={12} md={6} className="text-center"> {/* Centering the column content */}
+          <Col size={12} md={6} className="text-center">
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
