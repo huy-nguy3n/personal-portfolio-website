@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import losGatosMap from "../assets/img/losGatosMap.png"; // Make sure to add the image to your assets folder
+import losGatosMap from "../assets/img/losGatosMap.png";
 
 export const Contact = () => {
   return (
