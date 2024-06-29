@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio-website/static/css/main.1b604e26.css",
-    "main.js": "/personal-portfolio-website/static/js/main.65410044.js",
+    "main.js": "/personal-portfolio-website/static/js/main.aa5dfc35.js",
     "static/js/453.298f5782.chunk.js": "/personal-portfolio-website/static/js/453.298f5782.chunk.js",
     "static/media/friday-finder.png": "/personal-portfolio-website/static/media/friday-finder.dc7043b77d70302e1fd6.png",
     "static/media/color-sharp.png": "/personal-portfolio-website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -26,11 +26,11 @@
     "static/media/nav-icon2.svg": "/personal-portfolio-website/static/media/nav-icon2.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon1.svg": "/personal-portfolio-website/static/media/nav-icon1.a0b9556db24f5a9461b80b7759ae92f5.svg",
     "main.1b604e26.css.map": "/personal-portfolio-website/static/css/main.1b604e26.css.map",
-    "main.65410044.js.map": "/personal-portfolio-website/static/js/main.65410044.js.map",
+    "main.aa5dfc35.js.map": "/personal-portfolio-website/static/js/main.aa5dfc35.js.map",
     "453.298f5782.chunk.js.map": "/personal-portfolio-website/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b604e26.css",
-    "static/js/main.65410044.js"
+    "static/js/main.aa5dfc35.js"
   ]
 }

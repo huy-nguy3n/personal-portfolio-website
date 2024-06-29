@@ -1,13 +1,25 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import losGatosMap from "../assets/img/losGatosMap.png"; // Make sure to add the image to your assets folder
 
 export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center justify-content-center">
+          <Col size={12} md={4} className="text-center">
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <Image src={losGatosMap} alt="Los Gatos, California" fluid style={{ borderRadius: "10px" }} />
+                  <h5 style={{ marginTop: "10px", color: "white" }}>I'm located in Los Gatos, CA</h5>
+                  <h5 style={{ marginTop: "10px", color: "white" }}>Open to Remote and Relocation</h5>
+                </div>
+              }
+            </TrackVisibility>
+          </Col>
           <Col size={12} md={6} className="text-center">
             <TrackVisibility>
               {({ isVisible }) =>
