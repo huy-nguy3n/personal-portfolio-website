@@ -7,10 +7,18 @@ import UCSC from '../assets/img/ucsc.png';
 
 const experiences = [
   {
+    title: "R&D Software Engineer II",
+    company: "Keysight Technologies",
+    date: "July 2024 - Present",
+    description: "Specialized in AI and system automation, collaborating with cross-functional teams to define system requirements and design architectures, developing innovative solutions that addressed critical client needs, and contributing to securing high-value partnerships.",
+    icon: Keysight,
+    backgroundColor: "#e9ecef",
+  },
+  {
     title: "Artificial Intelligence Researcher",
     company: "Keysight Technologies",
-    date: "Jan 2024 - Present",
-    description: "Developed a Generative AI system for OpenTAP using Azure AI Studio, and OpenAI's GPT, saving test engineers 75% time with tailored Azure databases for Retrieval-Augmented Generation and automated testing protocols for high accuracy and reliability across devices.",
+    date: "January 2024 - June 2024",
+    description: "Developed a Generative AI system using GPT4, Azure, LangChain, and Flask. Web scraped, chunked, and vectorized relevant data to enhance Retrieval Augmented Generation (RAG), saving test engineers' time by 75% compared to manual coding",
     icon: Keysight,
     backgroundColor: "#e9ecef",
   },
@@ -18,14 +26,14 @@ const experiences = [
     title: "AR & AI Project Intern",
     company: "Integem Inc",
     date: "June 2022 - August, 2023",
-    description: "Designed projects using Python to demonstrate concepts in Artificial Intelligence and Augmented Reality, and mentored junior interns to improve their skill sets.",
+    description: "Designed Artificial Intelligence and Augmented Reality projects for students, and mentored junior interns to improve their skill sets.",
     icon: Integem,
     backgroundColor: "#e9ecef",
   },
   {
     title: "Bachelor of Science in Computer Science",
     company: "UC Santa Cruz",
-    date: "Sept 2020 - June 2024",
+    date: "September 2020 - June 2024",
     description: "Graduated with honors, where I studied Software Engineering, Artificial Intelligence, Machine Learning, Data Structures & Algorithms.",
     icon: UCSC,
     backgroundColor: "#f9f9f9",

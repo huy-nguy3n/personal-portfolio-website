@@ -35,24 +35,16 @@ export const Skills = () => {
                         <p>I have 3+ years of work experience, I have established a strong programming foundation through my work experiences, college coursework and project endeavors while also maintain an unwavering commitment to seek out opportunities that allow me to continually enhance my technical skills.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter3} alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
-                                <h5>C/C++</h5>
+                                <h5>C/C#/C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="" />
+                                <img src={meter2} alt="" />
                                 <h5>Javascript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="" />
-                                <h5>Frontend</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="" />
-                                <h5>Backend</h5>
                             </div>
                         </Carousel>
                     </div>
