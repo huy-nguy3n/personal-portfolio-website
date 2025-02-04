@@ -15,7 +15,7 @@ const experiences = [
     backgroundColor: "#e9ecef",
   },
   {
-    title: "Artificial Intelligence Researcher",
+    title: "Software Engineer Intern",
     company: "Keysight Technologies",
     date: "January 2024 - June 2024",
     description: "Developed a Generative AI system using GPT4, Azure, LangChain, and Flask. Web scraped, chunked, and vectorized relevant data to enhance Retrieval Augmented Generation (RAG), saving test engineers' time by 75% compared to manual coding",
